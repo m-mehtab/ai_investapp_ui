@@ -1,0 +1,9 @@
+<svg id="user-line" xmlns="http://www.w3.org/2000/svg" width="13.867" height="16">
+    <defs>
+        <style>
+            .cls-1{fill:#078ea0}
+        </style>
+    </defs>
+    <path id="Path_1140" data-name="Path 1140" class="cls-1" d="M14.733 10.467A3.733 3.733 0 1 0 11 6.733a3.733 3.733 0 0 0 3.733 3.734zm0-6.4a2.667 2.667 0 1 1-2.667 2.667 2.667 2.667 0 0 1 2.667-2.667z" transform="translate(-7.801 -3)"/>
+    <path id="Path_1141" data-name="Path 1141" class="cls-1" d="M18.584 21.866a9.152 9.152 0 0 0-13.3 0A1.067 1.067 0 0 0 5 22.6v2.8a1.067 1.067 0 0 0 1.067 1.067H17.8a1.067 1.067 0 0 0 1.067-1.067v-2.8a1.067 1.067 0 0 0-.283-.734zM17.8 25.4H6.067v-2.809a8.091 8.091 0 0 1 11.733 0z" transform="translate(-5 -10.468)"/>
+</svg>

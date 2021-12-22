@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.983" height="17.3" viewBox="0 0 15.983 17.3">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#078ea0;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Component_287_1" data-name="Component 287 – 1" transform="translate(.75 .75)">
+        <path id="Path_669" data-name="Path 669" class="cls-1" d="M9.575 16.6A1.975 1.975 0 1 1 7.6 14.625 1.975 1.975 0 0 1 9.575 16.6z" transform="translate(-5.625 -8.7)"/>
+        <path id="Path_670" data-name="Path 670" class="cls-1" d="M27.575 6.475A1.975 1.975 0 1 1 25.6 4.5a1.975 1.975 0 0 1 1.975 1.975z" transform="translate(-13.092 -4.5)"/>
+        <path id="Path_671" data-name="Path 671" class="cls-1" d="M27.575 26.725A1.975 1.975 0 1 1 25.6 24.75a1.975 1.975 0 0 1 1.975 1.975z" transform="translate(-13.092 -12.9)"/>
+        <path id="Path_672" data-name="Path 672" class="cls-1" d="m11.941 19.654 7.091 3.989" transform="translate(-8.245 -10.786)"/>
+        <path id="Path_673" data-name="Path 673" class="cls-1" d="m19.032 9.529-7.091 3.989" transform="translate(-8.245 -6.586)"/>
+    </g>
+</svg>

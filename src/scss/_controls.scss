@@ -1,0 +1,972 @@
+@import './varibale.scss';
+
+// All Global Controls Styling
+
+// before and after remove
+.bfr::before {
+  display: none;
+}
+.afr::after {
+  display: none;
+}
+
+.btn-primary-lg {
+  background-color: $main-color;
+  color: $font-color-white;
+  border: 0;
+  font-family: $Poppins-font;
+  font-size: $font-size-16 + 0.625rem;
+  font-weight: 600;
+  border-radius: 24px;
+  padding: 20px 18px;
+}
+
+.button-primary-outline {
+  font-weight: $font-weight-light;
+  font-size: $font-size-15;
+  border-radius: 7px;
+  border: 1px solid $font-color-white;
+  background-color: $bg-transparent-clr;
+  color: $font-color-white;
+}
+.btn-outline {
+  padding: 9px 25px;
+  border-radius: 30px;
+  border: solid 1px #078ea0;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 1.07;
+  color: #078ea0;
+  background-color: #fff;
+}
+section {
+  padding: 80px 0;
+}
+.section-title-1 {
+  font-size: $font-size-16 + 2.125;
+  font-weight: 900;
+  color: $main-color;
+  text-align: center;
+}
+.section-title-2 {
+  font-size: $font-size-16 + 1.813;
+  font-weight: 900;
+  color: $main-color;
+  text-align: center;
+}
+.loader {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 10px;
+  top: 14px;
+  left: 10px;
+}
+.canel-btn-grey {
+  background-color: $grey-background-color;
+  color: $main-color;
+  border: 0;
+  border-radius: 20px;
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.custom-select {
+  position: relative;
+  border-radius: 50px;
+  height: 40px;
+  img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+// BreadCrum
+.breadcrumb {
+  &-item {
+    font-family: $Poppins-font;
+    font-size: $font-size-16;
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: left;
+    color: $breadcrum-color;
+    margin-bottom: 45px;
+    &:last-child {
+      color: $main-color;
+    }
+  }
+}
+
+// Generic Cards styling
+
+.card {
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1.563rem;
+  padding: 35px 34px 36px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 3%);
+  margin-bottom: 30px;
+  .card-body {
+    padding: 0;
+    hr {
+      background-color: #e6e6e6;
+      margin: 1rem 0 1rem 0.5px;
+      border-bottom: solid 1px #e6e6e6;
+      opacity: 1;
+    }
+    .db-tabs {
+      .nav {
+        a {
+          &.active {
+            font-weight: 600;
+            color: $font-light-black;
+            border-bottom: 0.093rem solid $main-color;
+            .badge {
+              background-color: $main-color;
+              color: $font-color-white;
+              border-radius: 30px;
+              display: inline-block;
+              padding: 0.35em 0.65em;
+              font-size: 0.75em;
+              font-weight: 700;
+              line-height: 1;
+            }
+          }
+          -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+          font-family: $Poppins-font;
+          font-size: $font-size-14;
+          line-height: 0.86;
+          text-align: left;
+          color: $breadcrum-color;
+          padding: 0 2.5rem 0.875rem 0rem;
+          border-bottom: 0.093rem solid #d5d5d5;
+          .badge {
+            border-radius: 30px;
+            background-color: rgba(230, 230, 230, 0.99);
+            color: $breadcrum-color;
+          }
+        }
+      }
+      .tab-content {
+        .owl-stage {
+          .owl-item {
+            .item {
+              .card.service-box {
+                padding: 0rem;
+                margin: 0.938rem;
+                border-radius: 20px;
+                box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+                .card-body {
+                  padding: 0.938rem;
+                }
+                .service-box-rating .dropdown {
+                  button::after {
+                    display: none;
+                  }
+                }
+              }
+              img {
+                display: initial;
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// inner pages
+
+.innerPage {
+  &-title {
+    font-family: $Neris-font;
+    font-size: $font-size-16 + 0.875;
+    font-weight: 600;
+    line-height: 0.87;
+    color: $main-color;
+    margin-bottom: 50px;
+    .createdby {
+      margin-left: 7px;
+      font-family: $Poppins-font;
+      font-size: $font-size-16;
+      font-weight: 500;
+      line-height: 1.53;
+      color: $font-light-black;
+    }
+  }
+  &-wrapper {
+    padding: 0 70px;
+  }
+}
+
+// Service Box
+.service-box {
+  border-radius: 30px;
+  padding: 0px;
+  .card-title {
+    font-family: $Neris-font;
+    font-size: $font-size-16 + 0.125rem;
+    font-weight: 600;
+    color: $main-color;
+  }
+  &-rating {
+    font-family: $Poppins-font;
+    font-size: $font-size-12;
+    font-weight: 600;
+    line-height: 1.58;
+    color: $rating-colors;
+    img {
+      height: 12px;
+      margin-left: 5px;
+    }
+    p {
+      margin-top: 2px;
+    }
+    span {
+      font-size: 10px;
+      color: $breadcrum-color;
+    }
+  }
+  &-location {
+    font-family: $Poppins-font;
+    font-size: $font-size-12;
+    font-weight: 500;
+    color: $breadcrum-color;
+    img {
+      margin-right: 7px;
+    }
+  }
+  &-wishlist-details {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 12px 0;
+    margin-top: 12px;
+    &-pricing {
+      font-family: $Neris-font;
+      font-size: $font-size-14;
+      font-weight: 600;
+      line-height: 0.69;
+      color: $label-color;
+      span {
+        font-size: $font-size-16;
+        color: $main-color;
+        text-decoration: underline;
+      }
+    }
+  }
+  &-days {
+    padding: 0;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      span {
+        font-family: $Poppins-font;
+        font-size: $font-size-12 - 0.25;
+        color: $input-hint-color;
+        background: $border-color;
+        // border: 1px solid $secondary-color;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        padding: 8px 4px;
+        border-radius: 50px;
+        margin: 0.23rem;
+        text-align: center;
+        line-height: 1.8;
+        &.active {
+          background-color: $main-color;
+          color: $font-color-white;
+        }
+      }
+    }
+  }
+  .card-body {
+    padding: 1.25rem !important;
+  }
+  .card-text {
+    font-family: $Poppins-font;
+    font-size: 0.75rem !important;
+    line-height: 1.83;
+    color: $breadcrum-color;
+  }
+}
+
+.custom-Date {
+  position: relative;
+  width: 266px;
+  input {
+    font-family: $Poppins-font;
+    font-size: $font-size-14;
+    color: $font-light-black;
+    min-height: 40px;
+    border-radius: 50px;
+  }
+  img {
+    position: absolute;
+    right: 13px;
+    top: 7px;
+  }
+}
+/*** 
+	Switches for Bootstrap 4
+***/
+.material-switch {
+  > input[type='checkbox'] {
+    display: none;
+    &:checked {
+      + {
+        label {
+          &::before {
+            background: $primary-color;
+            opacity: 0.5;
+          }
+          &::after {
+            background: $secondary-color;
+            left: 20px;
+          }
+        }
+      }
+    }
+  }
+  > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    top: -4px;
+    width: 40px;
+    &::before {
+      background: rgb(0, 0, 0);
+      box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      content: '';
+      height: 16px;
+      margin-top: -8px;
+      position: absolute;
+      opacity: 0.3;
+      transition: all 0.4s ease-in-out;
+      width: 40px;
+    }
+    &::after {
+      background: rgb(255, 255, 255);
+      border-radius: 16px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      content: '';
+      height: 24px;
+      left: -4px;
+      margin-top: -8px;
+      position: absolute;
+      top: -4px;
+      transition: all 0.3s ease-in-out;
+      width: 24px;
+    }
+  }
+}
+
+// hover css
+
+.hyre-hover-fill {
+  &-primary {
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: $secondary-color;
+    &:hover {
+      color: $main-color !important;
+    }
+    &:before {
+      background-color: #fff;
+    }
+    &:focus {
+      color: $main-color !important;
+    }
+  }
+  // &-secondary {
+  // }
+  // &-danger {
+  // }
+}
+
+// .hyre-hover-outline {
+//   &-primary {
+//   }
+//   &-secondary {
+//   }
+//   &-danger {
+//   }
+// }
+
+//login page image animation
+.fade-in-top {
+  animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.outline-plain-btn {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  border: solid 1px #e6e6e6;
+  background-color: #fff;
+}
+a.alink {
+  font-family: $Poppins-font;
+  font-size: $font-size-14;
+  font-weight: 500;
+  color: $main-color;
+}
+
+//All Popus style
+.modal-lg,
+.modal-xl {
+  max-width: 871px;
+}
+.modal-content {
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  .modal-header {
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+    background-color: #f0f8f8;
+    text-align: center;
+    .modal-title {
+      width: 100%;
+      font-family: Neris;
+      font-size: 24px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.08;
+      letter-spacing: normal;
+      color: #078ea0;
+    }
+    button {
+      width: 40px;
+      border: solid 1.5px #078ea0;
+      border-radius: 50%;
+      background-color: transparent;
+      span {
+        color: #078ea0;
+        font-weight: bold;
+        font-size: 23px;
+      }
+    }
+  }
+
+  .modal-body {
+    .form-group {
+      margin: 20px 0;
+    }
+    label {
+      font-family: $Poppins-font;
+      font-size: 15px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.73;
+      letter-spacing: normal;
+      text-align: right;
+      color: #4e4e4e;
+    }
+    input.form-control {
+      font-family: $Poppins-font;
+      color: #676767;
+      height: 46px;
+      border-radius: 20px;
+      border: 1px solid #e6e6e6;
+      padding: 0px 20px;
+      font-size: 0.75rem;
+      box-shadow: none;
+      outline: 0;
+      &.upload-files {
+        padding: 0px 10px;
+        line-height: 45px;
+      }
+    }
+    select.form-control {
+      font-family: $Poppins-font;
+      color: #676767;
+      height: 46px;
+      border-radius: 20px;
+      border: 1px solid #e6e6e6;
+      padding: 0px 20px;
+      font-size: 0.75rem;
+      box-shadow: none;
+      outline: 0;
+    }
+    textarea {
+      border-radius: 20px;
+      border: solid 1px #e6e6e6;
+    }
+
+    label {
+      &.btn-browse {
+        padding: 10px 29px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        border-radius: 0 35px 35px 0 !important;
+        background-color: #078ea0;
+        color: #fff;
+        border: none;
+      }
+    }
+    .ShareService {
+      p {
+        font-family: $Poppins-font;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: center;
+        color: #7e7e7e;
+      }
+      .socialMedia {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+      }
+      .socialMedia li {
+        margin-right: 1.875rem;
+      }
+    }
+    span.water-mark {
+      font-family: $Poppins-font;
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: 2;
+      letter-spacing: normal;
+      color: #9a9a9a;
+      display: block;
+      width: 100%;
+      text-indent: 30px;
+    }
+    .tag-close {
+      font-family: $Poppins-font;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: $breadcrum-color;
+      border: none;
+      display: block;
+      width: 201px;
+      height: 44px;
+      padding: 12px 22px;
+      background-color: #f2f2f2;
+      line-height: 21px;
+    }
+    //Modal boder style tbl
+    .tbl-brdr {
+      label {
+        line-height: 3;
+        font-size: $font-size-14;
+        display: block;
+      }
+      hr {
+        margin: 0px;
+        background-color: #dddddd;
+        border-bottom: 1px solid #dddddd;
+      }
+      p {
+        padding: 0px;
+        margin: 10px 0;
+        font-family: $Poppins-font;
+        font-size: $font-size-14;
+        line-height: 1.86;
+        color: $breadcrum-color;
+        .rating {
+          height: 23px;
+          vertical-align: top;
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+    .AddEducation {
+      .form-check {
+        label {
+          -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+          font-family: $Poppins-font;
+          font-size: 12px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.67;
+          letter-spacing: normal;
+          text-align: left;
+          color: #706f6f;
+        }
+      }
+    }
+    .AddCertification {
+      input[type='file'] {
+        display: none;
+      }
+      .custom-file-upload {
+        display: inline-block;
+        padding: 12px 12px;
+        cursor: pointer;
+        border: 1px dashed #e6e6e6;
+        text-align: center;
+        color: $breadcrum-color;
+        border-radius: 130px;
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .modal-footer {
+    padding: 10px 29px;
+    font-family: $Poppins-font;
+    font-size: 0.875rem;
+    font-weight: 500;
+    justify-content: center;
+    button {
+      padding: 10px 29px;
+      font-family: $Poppins-font;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+}
+
+//rating review
+.review-wrapper {
+  max-height: 31vh;
+  overflow-y: scroll;
+}
+.review-card {
+  border-radius: 0px;
+  h5 {
+    color: $main-color;
+    font-size: $font-size-16;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    .rating {
+      height: 14px;
+      margin-left: 8px;
+    }
+  }
+  .avatar {
+    height: 35px;
+    margin-right: 15px;
+  }
+  .ratingColor {
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.42rem;
+  }
+  .ratingFigure {
+    font-size: $font-size-15;
+    color: $rating-colors;
+    font-weight: bold;
+    margin-left: 0.35rem;
+  }
+  p {
+    font-size: $font-size-14;
+    color: #606060;
+    margin: 0;
+    text-decoration: none;
+  }
+  .publishStatus {
+    font-family: $Poppins-font;
+    font-size: $font-size-12;
+    font-weight: 500;
+    color: $font-light-black;
+  }
+  .media {
+    border-bottom: 1px solid $border-light;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    &:last-child {
+      border-bottom: 0px solid #b9b9b9;
+      margin-bottom: 0rem;
+      padding-bottom: 0rem;
+    }
+  }
+}
+
+//circle check box
+.round label {
+  background-color: $active-green-color;
+  border: 1px solid $bg-transparent-clr;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 28px;
+  margin: 0 10px auto !important;
+}
+.round label.main {
+  background-color: $main-color;
+}
+.round label.secondary {
+  background-color: $secondary-color;
+}
+.round label.darkblue {
+  background-color: $darkblue;
+}
+.round label.greentheme {
+  background-color: $greentheme;
+}
+.round label.darktheme {
+  background-color: $darktheme;
+}
+.round label.darkerbluetheme {
+  background-color: $darkerbluetheme;
+}
+html {
+  body {
+    //container
+    .container {
+      .dashboard-main-wrapper {
+        .card {
+          &.Bank-Account {
+            .pe-rem {
+              padding-right: 10rem;
+            }
+            .form-group {
+              margin: 20px 0;
+            }
+            label {
+              font-size: 14px;
+              font-weight: 500;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.86;
+              letter-spacing: normal;
+              text-align: left;
+              color: #4e4e4e;
+            }
+            input.form-control {
+              font-family: $Poppins-font;
+              color: #676767;
+              height: 46px;
+              border-radius: 20px;
+              border: 1px solid #e6e6e6;
+              padding: 0px 20px;
+              font-size: 0.75rem;
+              box-shadow: none;
+              outline: 0;
+              &.upload-files {
+                padding: 0px 10px;
+                line-height: 45px;
+              }
+            }
+
+            textarea {
+              border-radius: 20px;
+              border: solid 1px #e6e6e6;
+            }
+            button {
+              margin: 0;
+              padding: 10px 35px 10px 36px;
+              border-radius: 20px;
+            }
+            .form-check {
+              margin: 2rem 0 1rem 0;
+              label {
+                -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+                font-family: Poppins;
+                font-size: 11px;
+                line-height: 1.82;
+                color: #706f6f;
+                margin: 2px 5px;
+              }
+            }
+          }
+          &.HelpSupport {
+            .card-body {
+              .pe-rem {
+                padding-right: 10rem;
+              }
+              .form-group {
+                margin: 20px 0;
+              }
+              label {
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.86;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4e4e4e;
+                span {
+                  font-weight: 600;
+                  color: #078ea0;
+                  font-family: $Poppins-font;
+                  font-size: 10px;
+                  line-height: 1.86;
+                  vertical-align: super;
+                }
+              }
+              input.form-control {
+                font-family: $Poppins-font;
+                color: $breadcrum-color;
+                height: 46px;
+                border-radius: 20px;
+                border: 1px solid #e6e6e6;
+                padding: 0px 20px;
+                font-size: 0.75rem;
+                box-shadow: none;
+                outline: 0;
+                &.upload-files {
+                  padding: 0px 10px;
+                  line-height: 45px;
+                }
+              }
+              input[type='file'] {
+                display: none;
+              }
+              .custom-file-upload {
+                display: inline-block;
+                padding: 12px 12px;
+                cursor: pointer;
+                border: 1px dashed #e6e6e6;
+                text-align: center;
+                color: $breadcrum-color;
+                border-radius: 130px;
+                font-size: 12px;
+                font-weight: normal;
+              }
+              p {
+                -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+                font-family: Poppins;
+                font-size: 11px;
+                line-height: 1.82;
+                color: #7e7e7e;
+              }
+              textarea {
+                border-radius: 20px;
+                border: solid 1px #e6e6e6;
+              }
+              button {
+                margin: 0;
+                padding: 10px 35px 10px 36px;
+                border-radius: 20px;
+              }
+              .form-check {
+                margin: 2rem 0 1rem 0;
+                label {
+                  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+                  font-family: Poppins;
+                  font-size: 11px;
+                  line-height: 1.82;
+                  color: #706f6f;
+                  margin: 2px 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//switch button bootrap style
+.form-switch .form-check-input {
+  width: 3.5em;
+  height: 17px;
+  background-color: #d5d5d5;
+  border: none;
+}
+.form-check-input:checked {
+  background-color: $main-color;
+  border-color: $main-color;
+}
+
+//slides wrapper
+.slideswrapper {
+  .owl-carousel {
+    .owl-item {
+      img {
+        display: initial;
+        width: auto;
+      }
+      .item {
+        .card {
+          padding: 0rem;
+          margin: 0.6rem;
+          border-radius: 20px;
+          box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        }
+      }
+    }
+  }
+}
+
+//Customer view Rating
+.CustomerRating {
+  .media {
+    border-bottom: 1px solid #b9b9b9;
+    margin: 1rem 0;
+    padding: 1.4rem 0;
+  }
+  h4 {
+    color: $main-color;
+    font-family: $Neris-font;
+    font-size: $font-size-16 + 0.25rem;
+    font-weight: 600;
+  }
+  p {
+    font-family: $Poppins-font;
+    font-size: $font-size-14;
+    color: $breadcrum-color;
+  }
+  .reviewsMain {
+    h4 {
+      font-size: $font-size-16 + 0.25rem !important;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid $border-light;
+      padding-bottom: 20px;
+      img {
+        margin-left: 20px;
+        height: 24px;
+      }
+      .ratingPoints {
+        font-family: $Poppins-font;
+        font-size: $font-size-16 + 0.125rem;
+        color: $rating-colors;
+        margin-left: 6px;
+      }
+    }
+  }
+  .card {
+    background-color: transparent;
+    box-shadow: none !important;
+  }
+}

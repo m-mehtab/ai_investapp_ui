@@ -1,0 +1,7 @@
+<svg data-name="Component 280 – 1" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <g data-name="Ellipse 678" style="stroke:#078ea0;fill:none">
+        <circle cx="17.5" cy="17.5" r="17.5" style="stroke:none"/>
+        <circle cx="17.5" cy="17.5" r="17" style="fill:none"/>
+    </g>
+    <path d="m14.058 12.561 4.19-4.19a1.06 1.06 0 1 0-1.5-1.5l-4.19 4.19-4.19-4.19a1.06 1.06 0 1 0-1.5 1.5l4.19 4.19-4.19 4.19a1.06 1.06 0 0 0 1.5 1.5l4.19-4.19 4.19 4.19a1.06 1.06 0 1 0 1.5-1.5z" transform="translate(5.439 5.44)" style="fill:#078ea0"/>
+</svg>

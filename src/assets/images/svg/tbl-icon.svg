@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.82" height="14.82" viewBox="0 0 14.82 14.82">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#676767;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Component_272_2" data-name="Component 272 – 2" transform="translate(.5 .5)">
+        <path id="message-square" class="cls-1" d="M16.82 12.213a1.536 1.536 0 0 1-1.536 1.536H6.071L3 16.82V4.536A1.536 1.536 0 0 1 4.536 3h10.748a1.536 1.536 0 0 1 1.536 1.536z" transform="translate(-3 -3)"/>
+        <path id="Path_7413" data-name="Path 7413" class="cls-1" d="M9 12v0h6.27v0" transform="translate(-5.545 -8.929)"/>
+        <path id="Path_7414" data-name="Path 7414" class="cls-1" d="M9 12v0h4.607v0" transform="translate(-5.545 -6.626)"/>
+        <path id="Path_7415" data-name="Path 7415" class="cls-1" d="M9 12v0h2.9v0" transform="translate(-5.545 -4.322)"/>
+    </g>
+</svg>

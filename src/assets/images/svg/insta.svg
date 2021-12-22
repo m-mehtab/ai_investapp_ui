@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <linearGradient id="soysepupia" x1=".5" x2=".5" y1=".008" y2=".998" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e09b3d"/>
+            <stop offset=".3" stop-color="#c74c4d"/>
+            <stop offset=".6" stop-color="#c21975"/>
+            <stop offset="1" stop-color="#7024c4"/>
+        </linearGradient>
+        <linearGradient id="2u2z2cx5pb" y1="-.451" y2="1.462" xlink:href="#soysepupia"/>
+        <linearGradient id="c6yy612bwc" y1="-1.396" y2="6.586" xlink:href="#soysepupia"/>
+    </defs>
+    <path fill="url(#soysepupia)" d="M21.063 0H8.937A8.947 8.947 0 0 0 0 8.937v12.126A8.947 8.947 0 0 0 8.937 30h12.126A8.947 8.947 0 0 0 30 21.063V8.937A8.947 8.947 0 0 0 21.063 0zm5.919 21.063a5.919 5.919 0 0 1-5.919 5.919H8.937a5.919 5.919 0 0 1-5.919-5.919V8.937a5.919 5.919 0 0 1 5.919-5.919h12.126a5.919 5.919 0 0 1 5.919 5.919v12.126z"/>
+    <path fill="url(#2u2z2cx5pb)" d="M140.591 133a7.591 7.591 0 1 0 7.591 7.591 7.6 7.6 0 0 0-7.591-7.591zm0 12.23a4.639 4.639 0 1 1 4.639-4.639 4.639 4.639 0 0 1-4.639 4.639z" transform="translate(-125.591 -125.591)"/>
+    <circle cx="1.902" cy="1.902" r="1.902" fill="url(#c6yy612bwc)" transform="translate(20.846 5.422)"/>
+</svg>
