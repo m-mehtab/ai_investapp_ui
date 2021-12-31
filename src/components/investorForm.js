@@ -1,12 +1,12 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap'
-const InvestorForm = ({ isEdit, isOpen, toggle }) => {
+const InvestorForm = ({ isEdit, isOpen, editModalOn, toggle, editModalOff }) => {
 
     return (
         <Modal show={isOpen} onHide={toggle} >
             <Modal.Header >
                 <h5 className="modal-title">{isEdit ? "Update" : "Add"} Investor</h5>
-                <button type="button" onClick={() => toggle()} className="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" onClick={() => editModalOff()} className="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </Modal.Header>
@@ -54,8 +54,8 @@ const InvestorForm = ({ isEdit, isOpen, toggle }) => {
                 </div>
             </div>
             <div className="modal-footer bg-whitesmoke br">
-                <button onClick={() => toggle()} type="button" className="btn btn-secondary" >Close</button>
-                <button onClick={() => toggle()} type="button" className="btn btn-primary">Save changes</button>
+                <button onClick={() => editModalOff()} type="button" className="btn btn-secondary" >Close</button>
+                <button onClick={() => editModalOff()} type="button" className="btn btn-primary">Save changes</button>
             </div>
         </Modal >
     )
