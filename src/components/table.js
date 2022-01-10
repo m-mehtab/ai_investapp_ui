@@ -2,8 +2,8 @@ import React from 'react';
 const Table = ({ columns, data, toggle ,editModalOn }) => {
     return (
         <>
-            <table className="table table-striped">
-                <thead>
+            <table className="table table-striped table-responsive">
+                <thead className='col-sm-4 col-md-12 col-lg-12'>
                     <tr>
                         {columns.map((item, ind) =>
                             <th key={ind} scope="col">{item}</th>
